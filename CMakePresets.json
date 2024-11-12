@@ -47,6 +47,7 @@
         "clang"
       ],
       "cacheVariables": {
+          "CMAKE_EXPORT_COMPILE_COMMANDS": "ON",
         "CMAKE_RUNTIME_OUTPUT_DIRECTORY": "${sourceDir}/bin",
         "CMAKE_LIBRARY_OUTPUT_DIRECTORY": "${sourceDir}/bin",
         "CMAKE_ARCHIVE_OUTPUT_DIRECTORY": "${sourceDir}/bin",
